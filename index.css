@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container{
+    width: 19rem;
+    background: white;
+    padding: 1.8rem 1.2rem;
+    box-shadow: 0 0 1.8rem rgb(0 0 0 / 10%);
+    border-radius: 0.5rem;
+}
+
+
+
+.input-box-special{
+    width: 90%;
+    padding: 0.6rem;
+    margin-right: 0rem 1rem;
+
+    border: 0.001rem solid #ddd;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.input-box{
+    color: black;
+    width: 90%;
+    padding: 0.6rem;
+    margin-right: 0rem 1rem;
+
+    border: 0.001rem solid #ddd;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+
+select{
+    width: 90%;
+    height: 2.5rem;
+    padding: 0.6rem;
+    margin-right: 0rem 1rem;
+
+    border: 0.001rem solid #ddd;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+.button-box {
+    padding: 0.6rem 1.3rem;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    margin-top: 0.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.heading{
+    font-size: 1.5rem;
+}
+
+.delete-button{
+    background-color: #dc3545;
+    color: #ffffff;
+    padding: 0.2rem;
+    border-color: #dc3545;
+    border-radius: 0.2rem;
+    border-style: double;
+    text-align: center;
+}
+
+.edit-button{
+    background-color: #007BFF;
+    color: #ffffff;
+    padding: 0.2rem;
+    border-color: #007BFF;
+    border-radius: 0.2rem;
+    border-style: double;
+    text-align: center;
+    margin-left: 0.5rem;
+}
+
+
+.flex-container{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding-bottom: 0.5rem;
+ padding-top: 0.5rem;
+ padding-left: 0.5rem;
+ padding-right: 0.5rem;
+}
+
+ul{
+    padding: 0px;
+}
